@@ -18,8 +18,14 @@ namespace VariableOpdracht2
             //followers, waarde: hoeveel followers
             //automod, waarde: staat automod aan?
 
+            twitchStream.name = "small";
+            twitchStream.laststreamname = "deez";
+            twitchStream.streamGame = new Game("soul knit");
+            twitchStream.balls = true;
+            twitchStream.cockFollowers = 42069;
 
-            Console.WriteLine("Hello, World!");
+
+            Console.WriteLine("i wanna die!" + "no");
         }
     }
 }

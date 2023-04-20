@@ -17,11 +17,11 @@ namespace PropertyOpdracht3
                 if(value > leeftijd)
                 {
                     leeftijd = value;
-                    Console.WriteLine("nope you young fuck");
+                    Console.WriteLine("you like!");
                 }
                 else
                 {
-                    Console.WriteLine("no not happening");
+                    Console.WriteLine("don't like");
                 }
             }
         }

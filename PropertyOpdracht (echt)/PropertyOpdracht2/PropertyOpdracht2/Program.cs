@@ -7,9 +7,9 @@ namespace PropertyOpdracht2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello to hell");
+            Console.WriteLine("Hello, biatch!");
 
-            Hond huisdier = new Hond("doggo");
+            Hond huisdier = new Hond("schield pad");
 
             huisdier.Naam = "magniet" ; ;//deze mag niet werken!
         }

@@ -1,18 +1,35 @@
 using System;
-using System.ComponentModel.Design;
+using System.Windows.Markup;
 
 namespace PropertyOpdracht3
 {
-    internal class Program
+    internal class Mens
     {
-        static void Main(string[] args)
+        private int leeftijd;
+
+        public int Leeftijd
         {
-            Console.WriteLine("Hello, World!");
+            get
+            {
+                return leeftijd;
+            }
+            set
+            {
+                if (value > leeftijd)
+                {
+                    leeftijd = value;
+                    Console.WriteLine("nope you young fuck");
+                }
+                else
+                {
+                    Console.WriteLine("no not happening");
+                }
+            }
+        }
 
-            Mens mens = new Mens(15);
-
-            mens.Leeftijd++;//deze moet werken
-            mens.Leeftijd--;//deze mag niet werken
+        public Mens(int leeftijd)
+        {
+            this.leeftijd = leeftijd;
         }
     }
 }
